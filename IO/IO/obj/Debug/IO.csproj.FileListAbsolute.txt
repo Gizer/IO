@@ -1,0 +1,12 @@
+C:\Users\arkadiusz.cichy\source\repos\IO\IO\bin\Debug\IO.exe.config
+C:\Users\arkadiusz.cichy\source\repos\IO\IO\bin\Debug\IO.exe
+C:\Users\arkadiusz.cichy\source\repos\IO\IO\bin\Debug\IO.pdb
+C:\Users\arkadiusz.cichy\source\repos\IO\IO\bin\Debug\Oracle.DataAccess.dll
+C:\Users\arkadiusz.cichy\source\repos\IO\IO\obj\Debug\IO.csprojAssemblyReference.cache
+C:\Users\arkadiusz.cichy\source\repos\IO\IO\obj\Debug\IO.Main.resources
+C:\Users\arkadiusz.cichy\source\repos\IO\IO\obj\Debug\IO.Properties.Resources.resources
+C:\Users\arkadiusz.cichy\source\repos\IO\IO\obj\Debug\IO.csproj.GenerateResource.cache
+C:\Users\arkadiusz.cichy\source\repos\IO\IO\obj\Debug\IO.csproj.CoreCompileInputs.cache
+C:\Users\arkadiusz.cichy\source\repos\IO\IO\obj\Debug\IO.csproj.CopyComplete
+C:\Users\arkadiusz.cichy\source\repos\IO\IO\obj\Debug\IO.exe
+C:\Users\arkadiusz.cichy\source\repos\IO\IO\obj\Debug\IO.pdb
