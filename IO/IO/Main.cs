@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Oracle.DataAccess.Client;
+using OracleGUI;
 
 namespace IO
 {
@@ -20,14 +21,13 @@ namespace IO
 
         private void buttonPassenger_Click(object sender, EventArgs e)
         {
-
         }
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
             DBConnector.SetLogin(textBoxLogin.Text);
             DBConnector.SetPass(textBoxPass.Text);
-            if(!DBConnector.Open())
+            if (!DBConnector.Open())
             {
                 MessageBox.Show("Niepoprawne dane");
             }
@@ -36,13 +36,11 @@ namespace IO
                 //jakaś query żeby ustalić czy to pracownik czy kierownik
                 var result = DBConnector.Query(String.Format("SELECT * FROM {0}_ROLE_PRIVS", textBoxLogin.Text));
                 //odpowiednio sprawdzić result
-                if(true)
+                if (true)
                 {
-
                 }
                 else
                 {
-
                 }
             }
         }
