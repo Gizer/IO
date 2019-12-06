@@ -37,18 +37,18 @@
             // dataGridViewWorker
             // 
             this.dataGridViewWorker.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewWorker.Location = new System.Drawing.Point(258, 12);
+            this.dataGridViewWorker.Location = new System.Drawing.Point(126, 12);
             this.dataGridViewWorker.Name = "dataGridViewWorker";
-            this.dataGridViewWorker.Size = new System.Drawing.Size(539, 426);
+            this.dataGridViewWorker.Size = new System.Drawing.Size(671, 426);
             this.dataGridViewWorker.TabIndex = 0;
             // 
             // buttonInfo
             // 
             this.buttonInfo.Location = new System.Drawing.Point(13, 28);
             this.buttonInfo.Name = "buttonInfo";
-            this.buttonInfo.Size = new System.Drawing.Size(75, 23);
+            this.buttonInfo.Size = new System.Drawing.Size(107, 23);
             this.buttonInfo.TabIndex = 1;
-            this.buttonInfo.Text = "Info";
+            this.buttonInfo.Text = "Informacje";
             this.buttonInfo.UseVisualStyleBackColor = true;
             this.buttonInfo.Click += new System.EventHandler(this.btn_info_Click);
             // 
@@ -56,7 +56,7 @@
             // 
             this.buttonSchedule.Location = new System.Drawing.Point(13, 58);
             this.buttonSchedule.Name = "buttonSchedule";
-            this.buttonSchedule.Size = new System.Drawing.Size(75, 23);
+            this.buttonSchedule.Size = new System.Drawing.Size(107, 23);
             this.buttonSchedule.TabIndex = 2;
             this.buttonSchedule.Text = "Grafik";
             this.buttonSchedule.UseVisualStyleBackColor = true;

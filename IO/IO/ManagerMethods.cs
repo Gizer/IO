@@ -9,98 +9,51 @@ namespace IO
 {
     public static class ManagerMethods
     {
-        public static string sprawdzIDPojazdu()
+        public static DataSet DisplayTable(string name)
         {
-            throw new NotImplementedException();
-        }
-
-        public static string sprawdzIDPracownika()
-        {
-            throw new NotImplementedException();
-        }
-
-        public static DataTable WyswietlPracownikow()
-        {
-            DataTable dt = new DataTable();
+            DataSet ds = new DataSet();
             if (DBConnector.Open())
-                dt.Load(DBConnector.Query("SELECT * FROM pracownicy"));
+                ds = (DBConnector.Query("SELECT * FROM " + name));
             else
                 return null;
             DBConnector.Close();
-            return dt;
+            return ds;
         }
 
-        public static DataTable WyswietlWypadki()
+        public static bool UpdateTable(string tableName, string colName, string newValue, string id, string where)
         {
-            DataTable dt = new DataTable();
-            if (DBConnector.Open())
-                dt.Load(DBConnector.Query("SELECT * FROM wypadki_dane"));
-            else
-                return null;
-            DBConnector.Close();
-            return dt;
-        }
-
-        public static DataTable WyswietlPojazdy()
-        {
-            DataTable dt;
             if (DBConnector.Open())
             {
-                dt = new DataTable();
-                dt.Load(DBConnector.Query("SELECT * FROM pojazdy"));
+                try
+                {
+                    DBConnector.Query("UPDATE " + tableName + " SET " + colName + " = '" + newValue + "' WHERE " + where + " = '" + id + "'");
+                    return true;
+                }
+                catch
+                {
+                    return false;
+                }
             }
             else
-                return null;
-            DBConnector.Close();
-            return dt;
+                return false;
         }
 
-        public static DataTable WyswietlRozklad()
+        public static bool DeleteFromTable(string tableName, string id, string where)
         {
-            DataTable dt = new DataTable();
             if (DBConnector.Open())
-                dt.Load(DBConnector.Query("SELECT * FROM rozklad"));
+            {
+                try
+                {
+                    DBConnector.Query("DELETE FROM " + tableName + " WHERE " + where + " = '" + id + "'");
+                    return true;
+                }
+                catch
+                {
+                    return false;
+                }
+            }
             else
-                return null;
-            DBConnector.Close();
-            return dt;
-        }
-
-        public static DataTable WyswietlZajezdnie()
-        {
-            DataTable dt = new DataTable();
-            if (DBConnector.Open())
-                dt.Load(DBConnector.Query("SELECT * FROM zajezdnie"));
-            else
-                return null;
-            DBConnector.Close();
-            return dt;
-        }
-
-        public static DataTable WyswietlPrzystanki()
-        {
-            DataTable dt = new DataTable();
-            if (DBConnector.Open())
-                dt.Load(DBConnector.Query("SELECT * FROM przystanki"));
-            else
-                return null;
-            DBConnector.Close();
-            return dt;
-        }
-
-        public static DataTable WyswietlGrafik()
-        {
-            DataTable dt = new DataTable();
-            if (DBConnector.Open())
-                dt.Load(DBConnector.Query("SELECT * FROM grafik"));
-            else
-                return null;
-            DBConnector.Close();
-            return dt;
-        }
-
-        public static void UpdatePracownikow()
-        {
+                return false;
         }
     }
 }

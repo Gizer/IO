@@ -8,21 +8,22 @@ namespace IO
 {
     public static class StringCipher
     {
-        public static string RandomString()
-        {
-            var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-            var stringChars = new char[64];
-            RNGCryptoServiceProvider provider = new RNGCryptoServiceProvider();
-            var byteArray = new byte[chars.Length];
+        //public static string RandomString()
+        //{
+        //    var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        //    var stringChars = new char[16];
+        //    RNGCryptoServiceProvider provider = new RNGCryptoServiceProvider();
+        //    var byteArray = new byte[chars.Length];
 
-            for (int i = 0; i < stringChars.Length; i++)
-            {
-                provider.GetBytes(byteArray);
-                stringChars[i] = chars[BitConverter.ToInt32(byteArray, 0)];
-            }
+        //    for (int i = 0; i < stringChars.Length; i++)
+        //    {
+        //        provider.GetBytes(byteArray);
+        //        stringChars[i] = chars[BitConverter.ToInt32(byteArray, 0)];
+        //    }
 
-            return new String(stringChars);
-        }
+        //    return new String(stringChars);
+        //}
+
         // This constant is used to determine the keysize of the encryption algorithm in bits.
         // We divide this by 8 within the code below to get the equivalent number of bytes.
         private const int Keysize = 256;
@@ -33,7 +34,7 @@ namespace IO
         public static string Encrypt(string plainText, string passPhrase)
         {
             // Salt and IV is randomly generated each time, but is preprended to encrypted cipher text
-            // so that the same Salt and IV values can be used when decrypting.  
+            // so that the same Salt and IV values can be used when decrypting.
             var saltStringBytes = Generate256BitsOfRandomEntropy();
             var ivStringBytes = Generate256BitsOfRandomEntropy();
             var plainTextBytes = Encoding.UTF8.GetBytes(plainText);

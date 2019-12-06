@@ -6,13 +6,15 @@ using System.Windows.Forms;
 
 namespace IO
 {
-    static class Program
+    internal static class Program
     {
+        public static List<Tuple<string, string, string, string>> users = new List<Tuple<string, string, string, string>>();
+
         /// <summary>
         /// Główny punkt wejścia dla aplikacji.
         /// </summary>
         [STAThread]
-        static void Main()
+        private static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
