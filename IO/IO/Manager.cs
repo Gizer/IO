@@ -9,7 +9,6 @@ namespace OracleGUI
 {
     public partial class Manager : Form
     {
-        private DataTable dt = new DataTable();
         private bool displayed = false;
 
         public Manager()
@@ -97,6 +96,41 @@ namespace OracleGUI
                 ManagerMethods.DeleteFromTable(name, id, where);
                 dataGridViewManager.DataSource = ManagerMethods.DisplayTable(name).Tables[0];
             }
+        }
+
+        private void buttonAddWorker_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonAddVehicle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonAddTimetable_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonAddDepot_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonAddStop_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonAddSchedule_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonAddNumber_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

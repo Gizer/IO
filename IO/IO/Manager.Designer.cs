@@ -42,6 +42,13 @@
             this.tb_change = new System.Windows.Forms.TextBox();
             this.buttonChange = new System.Windows.Forms.Button();
             this.buttonDelete = new System.Windows.Forms.Button();
+            this.buttonAddWorker = new System.Windows.Forms.Button();
+            this.buttonAddVehicle = new System.Windows.Forms.Button();
+            this.buttonAddTimetable = new System.Windows.Forms.Button();
+            this.buttonAddDepot = new System.Windows.Forms.Button();
+            this.buttonAddStop = new System.Windows.Forms.Button();
+            this.buttonAddSchedule = new System.Windows.Forms.Button();
+            this.buttonAddNumber = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewManager)).BeginInit();
             this.groupBoxManager.SuspendLayout();
             this.SuspendLayout();
@@ -205,11 +212,88 @@
             this.buttonDelete.UseVisualStyleBackColor = true;
             this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
+            // buttonAddWorker
+            // 
+            this.buttonAddWorker.Location = new System.Drawing.Point(297, 356);
+            this.buttonAddWorker.Name = "buttonAddWorker";
+            this.buttonAddWorker.Size = new System.Drawing.Size(75, 23);
+            this.buttonAddWorker.TabIndex = 5;
+            this.buttonAddWorker.Text = "Pracownik";
+            this.buttonAddWorker.UseVisualStyleBackColor = true;
+            this.buttonAddWorker.Click += new System.EventHandler(this.buttonAddWorker_Click);
+            // 
+            // buttonAddVehicle
+            // 
+            this.buttonAddVehicle.Location = new System.Drawing.Point(460, 356);
+            this.buttonAddVehicle.Name = "buttonAddVehicle";
+            this.buttonAddVehicle.Size = new System.Drawing.Size(75, 23);
+            this.buttonAddVehicle.TabIndex = 7;
+            this.buttonAddVehicle.Text = "Pojazd";
+            this.buttonAddVehicle.UseVisualStyleBackColor = true;
+            this.buttonAddVehicle.Click += new System.EventHandler(this.buttonAddVehicle_Click);
+            // 
+            // buttonAddTimetable
+            // 
+            this.buttonAddTimetable.Location = new System.Drawing.Point(297, 386);
+            this.buttonAddTimetable.Name = "buttonAddTimetable";
+            this.buttonAddTimetable.Size = new System.Drawing.Size(75, 23);
+            this.buttonAddTimetable.TabIndex = 8;
+            this.buttonAddTimetable.Text = "Rozkład";
+            this.buttonAddTimetable.UseVisualStyleBackColor = true;
+            this.buttonAddTimetable.Click += new System.EventHandler(this.buttonAddTimetable_Click);
+            // 
+            // buttonAddDepot
+            // 
+            this.buttonAddDepot.Location = new System.Drawing.Point(379, 386);
+            this.buttonAddDepot.Name = "buttonAddDepot";
+            this.buttonAddDepot.Size = new System.Drawing.Size(75, 23);
+            this.buttonAddDepot.TabIndex = 9;
+            this.buttonAddDepot.Text = "Zajezdnia";
+            this.buttonAddDepot.UseVisualStyleBackColor = true;
+            this.buttonAddDepot.Click += new System.EventHandler(this.buttonAddDepot_Click);
+            // 
+            // buttonAddStop
+            // 
+            this.buttonAddStop.Location = new System.Drawing.Point(461, 386);
+            this.buttonAddStop.Name = "buttonAddStop";
+            this.buttonAddStop.Size = new System.Drawing.Size(75, 23);
+            this.buttonAddStop.TabIndex = 10;
+            this.buttonAddStop.Text = "Przystanek";
+            this.buttonAddStop.UseVisualStyleBackColor = true;
+            this.buttonAddStop.Click += new System.EventHandler(this.buttonAddStop_Click);
+            // 
+            // buttonAddSchedule
+            // 
+            this.buttonAddSchedule.Location = new System.Drawing.Point(297, 416);
+            this.buttonAddSchedule.Name = "buttonAddSchedule";
+            this.buttonAddSchedule.Size = new System.Drawing.Size(75, 23);
+            this.buttonAddSchedule.TabIndex = 11;
+            this.buttonAddSchedule.Text = "Grafik";
+            this.buttonAddSchedule.UseVisualStyleBackColor = true;
+            this.buttonAddSchedule.Click += new System.EventHandler(this.buttonAddSchedule_Click);
+            // 
+            // buttonAddNumber
+            // 
+            this.buttonAddNumber.Location = new System.Drawing.Point(461, 415);
+            this.buttonAddNumber.Name = "buttonAddNumber";
+            this.buttonAddNumber.Size = new System.Drawing.Size(75, 23);
+            this.buttonAddNumber.TabIndex = 13;
+            this.buttonAddNumber.Text = "Numer";
+            this.buttonAddNumber.UseVisualStyleBackColor = true;
+            this.buttonAddNumber.Click += new System.EventHandler(this.buttonAddNumber_Click);
+            // 
             // Manager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonAddNumber);
+            this.Controls.Add(this.buttonAddSchedule);
+            this.Controls.Add(this.buttonAddStop);
+            this.Controls.Add(this.buttonAddDepot);
+            this.Controls.Add(this.buttonAddTimetable);
+            this.Controls.Add(this.buttonAddVehicle);
+            this.Controls.Add(this.buttonAddWorker);
             this.Controls.Add(this.buttonDelete);
             this.Controls.Add(this.buttonChange);
             this.Controls.Add(this.tb_change);
@@ -241,5 +325,12 @@
         private System.Windows.Forms.RadioButton radioButtonTimeOfArrival;
         private System.Windows.Forms.Button buttonChange;
         private System.Windows.Forms.Button buttonDelete;
+        private System.Windows.Forms.Button buttonAddWorker;
+        private System.Windows.Forms.Button buttonAddVehicle;
+        private System.Windows.Forms.Button buttonAddTimetable;
+        private System.Windows.Forms.Button buttonAddDepot;
+        private System.Windows.Forms.Button buttonAddStop;
+        private System.Windows.Forms.Button buttonAddSchedule;
+        private System.Windows.Forms.Button buttonAddNumber;
     }
 }

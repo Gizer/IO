@@ -51,6 +51,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddDialogs\AddDepot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDialogs\AddDepot.Designer.cs">
+      <DependentUpon>AddDepot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDialogs\AddNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDialogs\AddNumber.Designer.cs">
+      <DependentUpon>AddNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDialogs\AddSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDialogs\AddSchedule.Designer.cs">
+      <DependentUpon>AddSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDialogs\AddStop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDialogs\AddStop.Designer.cs">
+      <DependentUpon>AddStop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDialogs\AddTimetable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDialogs\AddTimetable.Designer.cs">
+      <DependentUpon>AddTimetable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDialogs\AddVehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDialogs\AddVehicle.Designer.cs">
+      <DependentUpon>AddVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDialogs\AddWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDialogs\AddWorker.Designer.cs">
+      <DependentUpon>AddWorker.cs</DependentUpon>
+    </Compile>
     <Compile Include="DBConnector.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="Main.cs">
