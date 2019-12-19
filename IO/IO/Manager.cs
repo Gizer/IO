@@ -1,9 +1,9 @@
 ﻿using IO;
-using Oracle.DataAccess.Client;
 using System;
 using System.Data;
 using System.Linq;
 using System.Windows.Forms;
+using DB;
 
 namespace OracleGUI
 {

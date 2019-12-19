@@ -1,6 +1,6 @@
-﻿using Oracle.DataAccess.Client;
-using System.Data;
+﻿using System.Data;
 using System.Windows.Forms;
+using DB;
 
 namespace IO
 {
