@@ -4,6 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Windows.Forms;
 using DB;
+using IO.AddDialogs;
 
 namespace OracleGUI
 {
@@ -100,37 +101,44 @@ namespace OracleGUI
 
         private void buttonAddWorker_Click(object sender, EventArgs e)
         {
-
+            AddWorker addWorker = new AddWorker();
+            addWorker.ShowDialog();
         }
 
         private void buttonAddVehicle_Click(object sender, EventArgs e)
         {
-
+            AddVehicle addVehicle = new AddVehicle();
+            addVehicle.ShowDialog();
         }
 
         private void buttonAddTimetable_Click(object sender, EventArgs e)
         {
-
+            AddTimetable addTimetable = new AddTimetable();
+            addTimetable.ShowDialog();
         }
 
         private void buttonAddDepot_Click(object sender, EventArgs e)
         {
-
+            AddDepot addDepot = new AddDepot();
+            addDepot.ShowDialog();
         }
 
         private void buttonAddStop_Click(object sender, EventArgs e)
         {
-
+            AddStop addStop = new AddStop();
+            addStop.ShowDialog();
         }
 
         private void buttonAddSchedule_Click(object sender, EventArgs e)
         {
-
+            AddSchedule addSchedule = new AddSchedule();
+            addSchedule.ShowDialog();
         }
 
         private void buttonAddNumber_Click(object sender, EventArgs e)
         {
-
+            AddNumber addNumber = new AddNumber();
+            addNumber.ShowDialog();
         }
     }
 }

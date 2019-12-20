@@ -41,8 +41,7 @@ namespace DB
                 //connection = new OracleConnection("User Id=" + Login/*StringCipher.Decrypt(Login,encString)*/ + ";Password=" + Pass/*StringCipher.Decrypt(Pass, encString)*/ + ";Data Source=localhost;");
 
                 //Moj connection string
-                connection = new OracleConnection("User Id=" + Login/*StringCipher.Decrypt(Login,encString)*/ + ";Password=" + Pass/*StringCipher.Decrypt(Pass, encString)*/ + ";Data Source=172.16.0.3;");
-
+                connection = new OracleConnection("User Id=" + Login/*StringCipher.Decrypt(Login,encString)*/ + ";Password=" + Pass/*StringCipher.Decrypt(Pass, encString)*/ + ";Data Source=localhost;");
             }
             else if (connection.State == System.Data.ConnectionState.Open)
                 return true;

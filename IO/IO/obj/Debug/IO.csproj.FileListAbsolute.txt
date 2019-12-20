@@ -54,3 +54,27 @@ C:\Users\mateu\source\repos\IO\IO\IO\bin\Debug\DBConnector.dll
 C:\Users\mateu\source\repos\IO\IO\IO\bin\Debug\DBConnector.pdb
 C:\Users\mateu\source\repos\IO\IO\IO\obj\Debug\IO.csproj.CopyComplete
 C:\Users\mateu\source\repos\IO\IO\IO\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\IO.csprojAssemblyReference.cache
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\IO.Main.resources
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\OracleGUI.Manager.resources
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\IO.Properties.Resources.resources
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\IO.User.resources
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\IO.Worker.resources
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\IO.csproj.GenerateResource.cache
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\IO.csproj.CoreCompileInputs.cache
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\IO.exe
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\IO.pdb
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\bin\Debug\IO.exe.config
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\bin\Debug\IO.exe
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\bin\Debug\IO.pdb
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\bin\Debug\DBConnector.dll
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\bin\Debug\DBConnector.pdb
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\IO.csproj.CopyComplete
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\IO.AddDialogs.AddDepot.resources
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\IO.AddDialogs.AddNumber.resources
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\IO.AddDialogs.AddSchedule.resources
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\IO.AddDialogs.AddStop.resources
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\IO.AddDialogs.AddTimetable.resources
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\IO.AddDialogs.AddVehicle.resources
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\IO\IO\obj\Debug\IO.AddDialogs.AddWorker.resources

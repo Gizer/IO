@@ -56,9 +56,8 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DBConnector, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DBConnector\DBConnector\bin\Release\DBConnector.dll</HintPath>
+    <Reference Include="DBConnector">
+      <HintPath>..\..\DBConnector\DBConnector\bin\Debug\DBConnector.dll</HintPath>
     </Reference>
     <Reference Include="Oracle.DataAccess, Version=2.122.18.3, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64" />
     <Reference Include="System" />
@@ -140,6 +139,27 @@
     <Compile Include="Worker.Designer.cs">
       <DependentUpon>Worker.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddDialogs\AddDepot.resx">
+      <DependentUpon>AddDepot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDialogs\AddNumber.resx">
+      <DependentUpon>AddNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDialogs\AddSchedule.resx">
+      <DependentUpon>AddSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDialogs\AddStop.resx">
+      <DependentUpon>AddStop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDialogs\AddTimetable.resx">
+      <DependentUpon>AddTimetable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDialogs\AddVehicle.resx">
+      <DependentUpon>AddVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDialogs\AddWorker.resx">
+      <DependentUpon>AddWorker.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
