@@ -1,0 +1,16 @@
+C:\Users\Arkadiusz Cichy\Desktop\IOauto\IO\IO\obj\x64\Debug\Interop.AutoItX3Lib.dll
+C:\Users\Arkadiusz Cichy\Desktop\IOauto\IO\IO\obj\x64\Debug\IO.csproj.ResolveComReference.cache
+C:\Users\Arkadiusz Cichy\Desktop\IOauto\IO\IO\obj\x64\Debug\IO.AddDialogs.AddDepot.resources
+C:\Users\Arkadiusz Cichy\Desktop\IOauto\IO\IO\obj\x64\Debug\IO.AddDialogs.AddNumber.resources
+C:\Users\Arkadiusz Cichy\Desktop\IOauto\IO\IO\obj\x64\Debug\IO.AddDialogs.AddSchedule.resources
+C:\Users\Arkadiusz Cichy\Desktop\IOauto\IO\IO\obj\x64\Debug\IO.AddDialogs.AddStop.resources
+C:\Users\Arkadiusz Cichy\Desktop\IOauto\IO\IO\obj\x64\Debug\IO.AddDialogs.AddTimetable.resources
+C:\Users\Arkadiusz Cichy\Desktop\IOauto\IO\IO\obj\x64\Debug\IO.AddDialogs.AddVehicle.resources
+C:\Users\Arkadiusz Cichy\Desktop\IOauto\IO\IO\obj\x64\Debug\IO.AddDialogs.AddWorker.resources
+C:\Users\Arkadiusz Cichy\Desktop\IOauto\IO\IO\obj\x64\Debug\IO.Main.resources
+C:\Users\Arkadiusz Cichy\Desktop\IOauto\IO\IO\obj\x64\Debug\OracleGUI.Manager.resources
+C:\Users\Arkadiusz Cichy\Desktop\IOauto\IO\IO\obj\x64\Debug\IO.Properties.Resources.resources
+C:\Users\Arkadiusz Cichy\Desktop\IOauto\IO\IO\obj\x64\Debug\IO.User.resources
+C:\Users\Arkadiusz Cichy\Desktop\IOauto\IO\IO\obj\x64\Debug\IO.Worker.resources
+C:\Users\Arkadiusz Cichy\Desktop\IOauto\IO\IO\obj\x64\Debug\IO.csproj.GenerateResource.cache
+C:\Users\Arkadiusz Cichy\Desktop\IOauto\IO\IO\obj\x64\Debug\IO.csproj.CoreCompileInputs.cache

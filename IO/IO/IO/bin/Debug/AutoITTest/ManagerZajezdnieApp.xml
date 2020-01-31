@@ -1,0 +1,26 @@
+<NewDataSet>
+  <Table>
+    <ID_ZAJEZDNI>1</ID_ZAJEZDNI>
+    <NAZWA>Rehacs</NAZWA>
+    <LICZBA_STANOWISK>13</LICZBA_STANOWISK>
+    <ADRES>7 Marcy Street</ADRES>
+  </Table>
+  <Table>
+    <ID_ZAJEZDNI>2</ID_ZAJEZDNI>
+    <NAZWA>3hzqzi</NAZWA>
+    <LICZBA_STANOWISK>57</LICZBA_STANOWISK>
+    <ADRES>651 Monica Parkway</ADRES>
+  </Table>
+  <Table>
+    <ID_ZAJEZDNI>3</ID_ZAJEZDNI>
+    <NAZWA>Uqkgju</NAZWA>
+    <LICZBA_STANOWISK>46</LICZBA_STANOWISK>
+    <ADRES>0879 Everett Parkway</ADRES>
+  </Table>
+  <Table>
+    <ID_ZAJEZDNI>4</ID_ZAJEZDNI>
+    <NAZWA>Vkegsk</NAZWA>
+    <LICZBA_STANOWISK>73</LICZBA_STANOWISK>
+    <ADRES>0535 Eastwood Point</ADRES>
+  </Table>
+</NewDataSet>

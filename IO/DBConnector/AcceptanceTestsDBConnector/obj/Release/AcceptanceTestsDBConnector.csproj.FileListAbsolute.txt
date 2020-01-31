@@ -1,0 +1,12 @@
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\DBConnector\AcceptanceTestsDBConnector\bin\Release\AcceptanceTestsDBConnector.dll
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\DBConnector\AcceptanceTestsDBConnector\bin\Release\AcceptanceTestsDBConnector.pdb
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\DBConnector\AcceptanceTestsDBConnector\bin\Release\DBConnector.dll
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\DBConnector\AcceptanceTestsDBConnector\bin\Release\fit.dll
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\DBConnector\AcceptanceTestsDBConnector\bin\Release\fitSharp.dll
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\DBConnector\AcceptanceTestsDBConnector\bin\Release\Oracle.DataAccess.dll
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\DBConnector\AcceptanceTestsDBConnector\bin\Release\DBConnector.pdb
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\DBConnector\AcceptanceTestsDBConnector\obj\Release\AcceptanceTestsDBConnector.csprojAssemblyReference.cache
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\DBConnector\AcceptanceTestsDBConnector\obj\Release\AcceptanceTestsDBConnector.csproj.CoreCompileInputs.cache
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\DBConnector\AcceptanceTestsDBConnector\obj\Release\AcceptanceTestsDBConnector.csproj.CopyComplete
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\DBConnector\AcceptanceTestsDBConnector\obj\Release\AcceptanceTestsDBConnector.dll
+C:\Users\Arkadiusz Cichy\Desktop\IO-branch0\DBConnector\AcceptanceTestsDBConnector\obj\Release\AcceptanceTestsDBConnector.pdb

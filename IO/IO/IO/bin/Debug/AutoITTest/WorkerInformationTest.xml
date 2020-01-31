@@ -1,0 +1,10 @@
+<NewDataSet>
+  <Table>
+    <ID_PRACOWNIKA>1</ID_PRACOWNIKA>
+    <IMIE>Heindrick</IMIE>
+    <NAZWISKO>Hackford</NAZWISKO>
+    <PESEL>47643143382462</PESEL>
+    <PLACA>2002</PLACA>
+    <PREMIA>77</PREMIA>
+  </Table>
+</NewDataSet>
